@@ -46,6 +46,7 @@ jobs:
           gitleaks detect --source ./api --exit-code 1
   trivy_fs_scan:
     runs-on: Agent_ashish
+    needs: gitleaks-scan
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
