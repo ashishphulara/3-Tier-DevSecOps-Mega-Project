@@ -72,7 +72,7 @@ jobs:
           projectBaseDir: client
           args: >
             -Dsonar.projectKey=my-projectkey
-            -Dsonar.projectName=My Project
+            -Dsonar.projectName=My-Project
             -Dsonar.sources=.
             -Dsonar.exclusions=**/node_modules**,**/dist/**,**/build/**
 
@@ -94,7 +94,7 @@ jobs:
           projectBaseDir: api
           args: >
             -Dsonar.projectKey=my-projectkey
-            -Dsonar.projectName=My Project
+            -Dsonar.projectName=My-Project
             -Dsonar.sources=.
             -Dsonar.exclusions=**/node_modules**,**/dist/**,**/build/**
 
